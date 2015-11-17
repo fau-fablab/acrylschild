@@ -104,46 +104,45 @@ $zip->addFile("files/" . $id . "/Layer4.svg", "Layer4.svg");
 $zip->close();
 ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
-<title>Acrylschild - Designer</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
-<style type="text/css" media="all">@import "style.css";</style>
-</head>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8">
+		<title>Acrylschild - Designer</title>
+		<style type="text/css" media="all">@import "style.css";</style>
+	</head>
 
-<body>
-<h1 id="Header">Acrylschild - Designer</h1>
-<div class="Content">
-<p>Dieser Assistent soll dabei behilflich sein, einen Standfuß für die mit dem
-	Laser-Cutter erstellten Leuchtschilder zu erstellen. Dies kann sehr
-	Zeitaufwändig sein und zu Stoßzeiten den Betrieb aufhalten. Daher bitte wenn
-	möglich dieses Tool verwenden.</p>
-<br />	
+	<body>
 
-	
+		<h1 id="Header">Acrylschild - Designer</h1>
+		<div class="Content">
+			<p>Dieser Assistent soll dabei behilflich sein, einen Standfuß für die mit dem
+					Laser-Cutter erstellten Leuchtschilder zu erstellen. Dies kann sehr
+					Zeitaufwändig sein und zu Stoßzeiten den Betrieb aufhalten. Daher bitte wenn
+					möglich dieses Tool verwenden.</p>
+			<br />
 
-<!-- page 1 -->
-<p id="page1">
-1. Teil: Angaben zum Leuchtschild | 2. Teil: Erstellen der Dateien | <b>3.
-	Teil: Download der erstellten Dateien</b><br />
+			<!-- page 1 -->
+			<p id="page1">
+			1. Teil: Angaben zum Leuchtschild | 2. Teil: Erstellen der Dateien | <b>3.
+					Teil: Download der erstellten Dateien</b><br />
 
-<br />
+			<br />
 
-<a href="files/<?php echo $id;?>/Layer1.svg">
-	Bodenplatte Acrylschild Layer1 3mm</a><br />
-<a href="files/<?php echo $id;?>/Layer2.svg">
-	Bodenplatte Acrylschild Layer2 3mm</a><br />
-<a href="files/<?php echo $id;?>/Layer3.svg">
-	Bodenplatte Acrylschild Layer3 8mm</a><br />
-<a href="files/<?php echo $id;?>/Layer4.svg">
-	Bodenplatte Acrylschild Layer4 3mm</a><br />
-<br />
-<br />
-<a href="files/<?php echo $id;?>/Bodenplatte Acrylschild.zip">
-	Download aller erstellten Dateien als Zip-Archiv</a>
-</p>
+			<a href="files/<?php echo $id;?>/Layer1.svg">
+					Bodenplatte Acrylschild Layer1 3mm</a><br />
+			<a href="files/<?php echo $id;?>/Layer2.svg">
+					Bodenplatte Acrylschild Layer2 3mm</a><br />
+			<a href="files/<?php echo $id;?>/Layer3.svg">
+					Bodenplatte Acrylschild Layer3 8mm</a><br />
+			<a href="files/<?php echo $id;?>/Layer4.svg">
+					Bodenplatte Acrylschild Layer4 3mm</a><br />
+			<br />
+			<br />
+			<a href="files/<?php echo $id;?>/Bodenplatte Acrylschild.zip">
+					Download aller erstellten Dateien als Zip-Archiv</a>
+			</p>
 
-</div>
+		</div>
 
-</body>
+	</body>
 </html>
-
