@@ -77,7 +77,7 @@ for($i = 1; $i < 5; $i++) {
 	if($layer == 2 || $test) {
 		$svg .= '<rect y="1.287" x="20.13" height="5" width="5.1" />
 			<rect y="15.11" x="6.17" height="15" width="56.64" />
-		<rect y="20.478" x="62.81" height="9.632" width="' . ($width - 51.714) . ' />
+		<rect y="20.478" x="62.81" height="9.632" width="' . ($width - 51.714) . '" />
 		<rect y="6.287" x="20.13" height="8.86" width="42.68" />';
 	}
 	$svg .= "
