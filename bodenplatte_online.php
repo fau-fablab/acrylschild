@@ -51,9 +51,10 @@ for($i = 1; $i < 5; $i++) {
 	width="' . ($width + 13.6) . '"/>';
 
 	// Draw a rectangular slot to hold the picture plate
+	$kerf = 0.00;
 	if($layer == 3 || $layer == 4 || $test) {
-		$svg .= '<rect y="' . (25.287 - (($thickness-0.13)/ 2)) .
-			'" x="8.087" height="' . ($thickness-0.13) .
+		$svg .= '<rect y="' . (25.287 - (($thickness-$kerf)/ 2)) .
+			'" x="8.087" height="' . ($thickness-$kerf) .
 				'" width="' . ($width) . '" />';
 	}
 
